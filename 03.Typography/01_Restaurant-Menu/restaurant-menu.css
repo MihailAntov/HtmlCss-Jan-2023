@@ -6,7 +6,7 @@ body{
 
 span{
     font-style: oblique;
-    font-family: "Graphik Semibold Web", "Open Sans","Helvetica Neue",Helvetica,Arial;
+    font-family: Graphik Semibold Web, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.46;
@@ -17,8 +17,8 @@ span{
 
 
 
-p{
-    font-family: Graphik Regular Web, Helvetica Neue, Helvetica, Arial;
+article p{
+    font-family: Graphik Regular Web, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.46;
