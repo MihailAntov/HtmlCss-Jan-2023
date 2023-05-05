@@ -1,0 +1,73 @@
+.first img{
+    float:right;
+    margin-left: 10px;
+}
+
+.third img{
+    float: left;
+    margin-right: 10px;
+
+}
+
+body{
+    font-size: 1.2em;
+    background-color: rgb(238,238,238);
+}
+
+blockquote{
+    font-family: Georgia, serif;
+    float: right;
+    font-style: italic;
+}
+
+.half, .quote{
+    width: 50%
+}
+
+.author{
+    text-align: right;
+    
+}
+
+h1,h2,h3{
+    font-family: Georgia, serif;
+}
+
+
+main{
+    display: inline-block;
+    width: 66%;
+}
+
+aside{
+    display: inline-block;
+    width: 18%;
+    vertical-align: top;
+    margin-left: 180px;
+
+}
+
+
+header{
+    position: relative;
+}
+
+header p{
+    font-size: 40px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600px;
+}
+header nav{
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    right: 25px;
+}
+
+header li{
+    display: inline-block;
+    margin-left: 25px;
+}

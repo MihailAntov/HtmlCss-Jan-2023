@@ -1,0 +1,28 @@
+/* * {
+    box-sizing: border-box;
+    border: 1px solid black;
+} */
+
+
+
+body{
+    /* font-size: 0px; */
+    width: 1000px;
+    height: 1000px;
+    background-image: linear-gradient(to right top, #ebea29, #edca00, #ebaa00, #e58b00, #db6b00, #c46400, #ad5c00, #985400, #775900, #595904, #3f5518, #294f27);    
+}
+
+
+
+article, aside{
+    width: 50%;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.color{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(to right top, #d5f951, #ffd448, #ffaf66, #ff948d, #ff88b0, #ff84aa, #ff7fa4, #ff7b9e, #ff8668, #ffa91b, #ccd400, #39f830);}

@@ -1,0 +1,40 @@
+
+div{
+    width: 400px;
+    border: 1px solid black;
+    font-size: 28px;
+    height: auto;
+    
+}
+
+img{
+    width: 80%;
+}
+
+
+.sticky-img{
+    position: sticky;
+    top: 40px;
+}
+
+.sticky1{
+    height: 800px;
+    overflow: hidden;
+}
+
+.sticky2
+{
+    height: 800px;
+    overflow: auto;
+}
+
+
+.sticky4{
+    height: 800px;
+    overflow: scroll;
+}
+
+.sticky5{
+    height: 800px;
+    overflow: visible;
+}

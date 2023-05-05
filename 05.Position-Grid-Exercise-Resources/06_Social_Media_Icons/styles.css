@@ -1,0 +1,48 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+ul{
+
+    list-style-type: none;
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    border-radius: 50%;
+    background-color: gainsboro;
+    padding: 10px 11px;
+    margin: 6px;
+    color: black;
+}
+
+a.facebook:hover{
+    color: blue;
+    transition: color 0.5s;
+}
+
+
+a.twitter:hover{
+    color: #1DA1F2;
+    transition: color 0.5s;
+}
+
+
+a.google-plus:hover{
+    color: #DB4437;
+    transition: color 0.5s;
+}
+
+
+a.linked-in:hover{
+    color: #1DA1F2;
+    transition: color 0.5s;
+}
+
+
+a.instagram:hover{
+    color:#fb3958;
+    transition: color 0.5s;
+}
