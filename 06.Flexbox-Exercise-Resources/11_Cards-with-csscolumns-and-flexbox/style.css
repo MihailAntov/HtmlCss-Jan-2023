@@ -13,25 +13,45 @@ h2{
     font-size: 36px;
     color:black;
 }
-body{
-    width: 60%;
-}
 
 .cards-layout{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     gap: 14px;
-    width: 30%;
-    height: 270vh;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    /* max-width: 50%; */
-    /* height: 100vh; */
+    
+}
+
+
+.card{
+    flex-wrap: wrap;
+    display: flex;
+    /* height: auto; */
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
 }
 
 .cards-layout.masonry{
+    flex-direction: column;
+    width: 50%;
     height: 220vh;
+    
+}
+
+.cards-layout.masonry .card{
+    
+    /* height: 30%; */
+    width: 30%;
+}
+
+.cards-layout.flex{
+    flex-direction: row;
+    width: 50%;    
+}
+
+.cards-layout.flex .card{
+    flex-basis: 30%;
+    height: auto;
 }
 
 .cards-layout img{
@@ -40,20 +60,6 @@ body{
 }
 
 
-
-
-.card{
-    display: flex;
-    flex-wrap: wrap;
-    height: auto;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
-}
-
-
-
-.flex .card{
-    flex-basis: 31%;
-}
 
 
 .card section, .card footer{
