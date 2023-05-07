@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+
+html *{
+    box-sizing: border-box;
+}
+
+
+div, section{
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 65vw; */
+    
+}
+
+section{
+    display: inline-flex;
+    height: calc(60vh-8px);
+}
+div{
+    /* justify-content: stretch; */
+}
+
+.week{
+    width: 70vw;
+    display: inline-flex;
+}
+
+.notes{
+    width: 30vw;
+    height: 60vh;
+    display: inline-flex;
+}
+
+.container{
+    display: flex;
+}
+
+
+
+span{
+    border: 1px solid black;
+    
+}
+
+.day{
+    width: 14vw;
+}
+
+.day-weekend{
+    width: 35vw;
+}
+
+.notebox{
+        height: 50%;
+    }
+
+.title{
+    width: 70vw;
+}
+
+span{
+    width: 100%;
+}
+
+
+.notes{
+    flex-direction: column;
+
+}

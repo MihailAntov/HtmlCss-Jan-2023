@@ -1,0 +1,33 @@
+.site-title{
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-size: 48;
+}
+
+
+.site-title, h1{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+}
+
+header{
+    border-bottom: 2px rgb(0,0,0) solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header nav ul{
+    display: flex;
+    /* flex-basis: 50%; */
+    justify-content: space-between;
+}
+
+header nav{
+    flex-basis: 20%;
+}
+
+header nav ul li a{
+    color: rgb(0,153,0);
+}
+
